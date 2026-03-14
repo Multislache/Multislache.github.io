@@ -15,6 +15,10 @@ const gameJamProjects = [
     year: "2026",
     category: "gamejam",
     image: null,
+    images: [
+      "/projects/wonderjam/20260227_160439.jpg",
+      "/projects/wonderjam/PXL_20260301_204123002.jpg",
+    ],
   },
   {
     id: 102,
@@ -86,6 +90,7 @@ const schoolProjects = [
     school: "UQAC",
     image: null,
     collaborative: true,
+    video: "/projects/platformer/INDUSTRIAL Escape.mp4",
   },
   {
     id: 10,
@@ -128,6 +133,7 @@ const schoolProjects = [
     school: "UQAC",
     image: null,
     collaborative: true,
+    video: "/projects/snake/Snake.mp4",
   },
   {
     id: 5,
