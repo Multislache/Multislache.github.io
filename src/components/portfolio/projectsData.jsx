@@ -325,6 +325,10 @@ L'expérience Ubisoft apportait une dimension professionnelle avec des mentors d
     url: "https://itch.io/jam/wonderjam-uqac-hiver-2026/rate/4338317",
     year: "2026",
     category: "gamejam",
+    images: [
+      "/projects/wonderjam/20260227_160439.jpg",
+      "/projects/wonderjam/PXL_20260301_204123002.jpg",
+    ],
   },
 ];
 
