@@ -233,6 +233,7 @@ Le jeu inclut un système de collectibles et de checkpoints pour une expérience
     category: "school",
     school: "UQAC",
     collaborative: true,
+    video: "/projects/platformer/INDUSTRIAL Escape.mp4",
   },
   {
     id: 12,
@@ -303,6 +304,7 @@ J'étais responsable de la game loop, du système de collision et de la gestion 
     category: "school",
     school: "UQAC",
     collaborative: true,
+    video: "/projects/snake/Snake.mp4",
   },
 
   // Game Jams
