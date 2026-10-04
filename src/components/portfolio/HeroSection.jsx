@@ -28,9 +28,7 @@ export default function HeroSection() {
       {/* Nav */}
       <nav className="fixed top-0 left-0 right-0 z-50 px-6 md:px-16 py-5 flex justify-between items-center border-b border-white/5 bg-[#07070f]/80 backdrop-blur-md">
       <div className="flex items-center gap-3">
-        <div className="w-9 h-9 rounded-lg bg-violet-600 flex items-center justify-center text-xs font-bold tracking-widest">
-          JW
-        </div>
+        <img src="https://github.com/Multislache.png?size=96" alt="Jacques Wen" className="w-9 h-9 rounded-lg object-cover" />
         <div>
           <p className="font-semibold text-sm leading-none">Jacques Wen</p>
           <p className="text-[11px] text-white/40 mt-0.5">Développeur</p>

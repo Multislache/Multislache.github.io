@@ -93,9 +93,7 @@ export default function Home() {
       {/* Top Bar */}
       <div className="fixed top-0 left-0 right-0 z-40 px-6 md:px-16 py-4 flex justify-between items-center border-b border-white/5 bg-[#07070f]/80 backdrop-blur-md">
         <div className="flex items-center gap-3">
-          <div className="w-8 h-8 rounded-lg bg-violet-600 flex items-center justify-center text-xs font-bold">
-            JW
-          </div>
+          <img src="https://github.com/Multislache.png?size=96" alt="Jacques Wen" className="w-8 h-8 rounded-lg object-cover" />
           <div className="hidden sm:block">
             <p className="font-semibold text-sm">Jacques Wen</p>
             <p className="text-[10px] text-white/40">Game Developer</p>
