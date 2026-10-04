@@ -1,39 +1,34 @@
-**Welcome to your Base44 project** 
+# Portfolio — Jacques Wen
 
-**About**
+Portfolio personnel : https://multislache.github.io/
 
-View and Edit  your app on [Base44.com](http://Base44.com) 
+Développeur polyvalent (full stack, jeux vidéo et moteurs de jeu, data, réseaux). Étudiant en première année du cycle ingénieur (ING1) à l'EFREI Paris, diplômé du BUT Informatique (IUT d'Orsay, Université Paris-Saclay) et du Bachelor en informatique, jeux vidéo de l'UQAC.
 
-This project contains everything you need to run your app locally.
+## Contenu
 
-**Edit the code in your local development environment**
+- Présentation, parcours et compétences
+- Projets scolaires, personnels et game jams, avec fiches détaillées et aperçus vidéo
+- Génération du CV en PDF
 
-Any change pushed to the repo will also be reflected in the Base44 Builder.
+## Stack
 
-**Prerequisites:** 
+React 18, Vite, Tailwind CSS, Framer Motion, React Router, shadcn/ui.
 
-1. Clone the repository using the project's Git URL 
-2. Navigate to the project directory
-3. Install dependencies: `npm install`
-4. Create an `.env.local` file and set the right environment variables
+## Développement local
 
-```
-VITE_BASE44_APP_ID=your_app_id
-VITE_BASE44_APP_BASE_URL=your_backend_url
-
-e.g.
-VITE_BASE44_APP_ID=cbef744a8545c389ef439ea6
-VITE_BASE44_APP_BASE_URL=https://my-to-do-list-81bfaad7.base44.app
+```bash
+npm install
+npm run dev       # serveur de développement
+npm run build     # build de production
+npm run preview   # aperçu du build
+npm run lint      # ESLint
 ```
 
-Run the app: `npm run dev`
+## Déploiement
 
-**Publish your changes**
+Chaque push sur `main` lance le workflow GitHub Actions (`.github/workflows/deploy.yml`) qui construit le site et le publie sur GitHub Pages.
 
-Open [Base44.com](http://Base44.com) and click on Publish.
+## Contact
 
-**Docs & Support**
-
-Documentation: [https://docs.base44.com/Integrations/Using-GitHub](https://docs.base44.com/Integrations/Using-GitHub)
-
-Support: [https://app.base44.com/support](https://app.base44.com/support)
+- GitHub : [Multislache](https://github.com/Multislache)
+- LinkedIn : [jacques-wen](https://www.linkedin.com/in/jacques-wen-43ba32164/)
