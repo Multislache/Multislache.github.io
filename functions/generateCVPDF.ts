@@ -68,11 +68,11 @@ Deno.serve(async (req) => {
     // Profile
     drawSection('Profil');
     page.drawText(
-      'Développeur Unreal Engine avec expertise complète de l\'écosystème. Double diplôme IUT Orsay (BUT',
+      'Développeur Unreal Engine avec expertise complète de l\'écosystème. Diplômé du BUT Informatique (IUT Orsay)',
       { x: margin, y, size: 10, maxWidth: 500 }
     );
     page.drawText(
-      'Informatique) + UQAC (Baccalauréat Game Dev). Base très solide : architecture moteurs, optimisation,',
+      'et de l\'UQAC, en ING1 à l\'EFREI Paris. Base très solide : architecture moteurs, optimisation,',
       { x: margin, y: y - 12, size: 10, maxWidth: 500 }
     );
     page.drawText(
@@ -84,16 +84,21 @@ Deno.serve(async (req) => {
     // Education
     drawSection('Formation');
     
+    page.drawText('EFREI Paris', { x: margin, y, size: 10 });
+    y -= 12;
+    page.drawText('Cycle ingénieur - 1ère année (ING1) | 2026 - en cours', { x: margin, y, size: 9 });
+    y -= 12;
+
     page.drawText('UQAC - Université du Québec à Chicoutimi', { x: margin, y, size: 10 });
     y -= 12;
-    page.drawText('Baccalauréat en Développement de Jeux Vidéo | 2025-2027', { x: margin, y, size: 9 });
+    page.drawText('Diplômé en Développement de Jeux Vidéo | 2025-2026', { x: margin, y, size: 9 });
     y -= 12;
     page.drawText('• Expertise : Unreal Engine architecture, systèmes de gameplay, optimisation, multithreading, mathématiques moteurs', { x: margin + 5, y, size: 9 });
     y -= 12;
 
     page.drawText('IUT d\'Orsay - Université Paris-Saclay', { x: margin, y, size: 10 });
     y -= 12;
-    page.drawText('BUT Informatique - Parcours A | 2023-2026', { x: margin, y, size: 9 });
+    page.drawText('Diplômé du BUT Informatique - Parcours A | 2023-2026', { x: margin, y, size: 9 });
     y -= 12;
     page.drawText('• Développement logiciel, POO, bases de données, réseaux, cybersécurité', { x: margin + 5, y, size: 9 });
     y -= 12;

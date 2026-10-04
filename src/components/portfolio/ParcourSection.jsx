@@ -37,9 +37,9 @@ const timeline = [
     highlight: true,
   },
   {
-    date: "2025 — 2027",
+    date: "2026",
     lieu: "UQAC & IUT Orsay",
-    description: "🎓 Double Diplôme International — Baccalauréat en développement de jeux vidéo (UQAC) + BUT Informatique (IUT Orsay).",
+    description: "🎓 Diplômé — BUT Informatique (IUT Orsay, Université Paris-Saclay) et diplôme en développement de jeux vidéo (UQAC).",
     color: "text-violet-400",
     dot: "bg-violet-500",
     type: "formation",

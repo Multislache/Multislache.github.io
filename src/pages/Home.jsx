@@ -194,8 +194,8 @@ export default function Home() {
               <div>
                 <p className="text-white/60 leading-relaxed mb-6">
                   Étudiant en informatique, développeur polyvalent.
-                  Actuellement en première année du cycle ingénieur (ING1) à l'EFREI Paris, après un BUT Informatique à l'IUT d'Orsay - Université Paris-Saclay
-                  et une formation en développement de jeux vidéo à l'UQAC - Université du Québec à Chicoutimi (Canada).
+                  Actuellement en première année du cycle ingénieur (ING1) à l'EFREI Paris, après avoir obtenu mon BUT Informatique à l'IUT d'Orsay - Université Paris-Saclay
+                  et mon diplôme en développement de jeux vidéo à l'UQAC - Université du Québec à Chicoutimi (Canada).
                   Je me forme au développement full stack, aux données, à la cybersécurité, aux réseaux et aux systèmes,
                   avec une spécialisation en développement de jeux vidéo : architectures de moteurs et systèmes de gameplay complexes.
                 </p>
@@ -223,11 +223,11 @@ export default function Home() {
                 </div>
                 <div className="border border-white/10 rounded-xl p-4 bg-white/3">
                   <h3 className="text-sm font-mono text-cyan-400 mb-2">IUT d'Orsay - Université Paris-Saclay</h3>
-                  <p className="text-white/50 text-sm">BUT Informatique - Développement logiciel, bases de données, réseaux</p>
+                  <p className="text-white/50 text-sm">Diplômé du BUT Informatique - Développement logiciel, bases de données, réseaux</p>
                 </div>
                 <div className="border border-white/10 rounded-xl p-4 bg-white/3">
                   <h3 className="text-sm font-mono text-violet-400 mb-2">UQAC - Université du Québec à Chicoutimi</h3>
-                  <p className="text-white/50 text-sm">Baccalauréat en développement de jeux vidéo - ECS, GAS, mathématiques théoriques des moteurs (matrices, vecteurs, physique)</p>
+                  <p className="text-white/50 text-sm">Diplômé en développement de jeux vidéo - ECS, GAS, mathématiques théoriques des moteurs (matrices, vecteurs, physique)</p>
                 </div>
               </div>
             </div>
