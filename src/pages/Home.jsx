@@ -96,7 +96,7 @@ export default function Home() {
           <img src="https://github.com/Multislache.png?size=96" alt="Jacques Wen" className="w-8 h-8 rounded-lg object-cover" />
           <div className="hidden sm:block">
             <p className="font-semibold text-sm">Jacques Wen</p>
-            <p className="text-[10px] text-white/40">Game Developer</p>
+            <p className="text-[10px] text-white/40">Software Developer</p>
           </div>
         </div>
         <div className="flex items-center gap-3">
@@ -138,9 +138,9 @@ export default function Home() {
               </span>
             </h1>
             <p className="text-white/50 text-xl max-w-2xl mb-8 leading-relaxed">
-              Développeur spécialisé en développement de jeux vidéo et moteurs de jeu.
-              Expertise en architecture ECS, systèmes de gameplay avancés (GAS), et optimisation.
-              Solide formation en mathématiques de l'enseignement supérieur (BUT Informatique) et spécialisation en mathématiques théoriques des moteurs de jeux à l'UQAC.
+              Développeur polyvalent : développement full stack, jeux vidéo et moteurs de jeu, data, réseaux et cybersécurité.
+              Expertise en architecture logicielle (ECS, Subsystems), systèmes de gameplay (GAS) et optimisation.
+              Solide formation en mathématiques de l'enseignement supérieur (BUT Informatique) et spécialisation à l'UQAC.
             </p>
             <div className="flex flex-wrap gap-2 mb-8">
               {skills.map((s, i) => (
@@ -193,10 +193,10 @@ export default function Home() {
             <div className="grid md:grid-cols-2 gap-8">
               <div>
                 <p className="text-white/60 leading-relaxed mb-6">
-                  Étudiant en informatique passionné par le développement de jeux vidéo. 
-                  Actuellement en double diplôme entre l'IUT d'Orsay - Université Paris-Saclay (France) et l'UQAC - Université du Québec à Chicoutimi (Canada), 
-                  je me spécialise dans les architectures de moteurs de jeu et les systèmes de gameplay complexes.
-                  Formation polyvalente à l'IUT : développement full stack, data, cybersécurité, réseaux et systèmes.
+                  Étudiant en informatique, développeur polyvalent.
+                  Actuellement en double diplôme entre l'IUT d'Orsay - Université Paris-Saclay (France) et l'UQAC - Université du Québec à Chicoutimi (Canada),
+                  je me forme au développement full stack, aux données, à la cybersécurité, aux réseaux et aux systèmes,
+                  avec une spécialisation en développement de jeux vidéo : architectures de moteurs et systèmes de gameplay complexes.
                 </p>
                 <div className="flex flex-col gap-3">
                   <div className="flex items-center gap-3 text-sm">
@@ -244,7 +244,7 @@ export default function Home() {
               <div className="h-px flex-1 bg-gradient-to-r from-violet-400/50 to-transparent" />
             </div>
             <h2 className="text-5xl font-black mb-8">Compétences</h2>
-            <p className="text-white/40 text-sm mb-8">Formation polyvalente BUT Informatique + Spécialisation Game Dev</p>
+            <p className="text-white/40 text-sm mb-8">Formation polyvalente BUT Informatique + UQAC (jeux vidéo)</p>
             
             {/* Compact Grid */}
             <div className="grid md:grid-cols-3 gap-4">

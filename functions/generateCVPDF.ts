@@ -51,7 +51,7 @@ Deno.serve(async (req) => {
     });
     y -= 24;
 
-    page.drawText('Game Developer | Développeur de Jeux Vidéo', {
+    page.drawText('Développeur Logiciel | Full Stack & Jeux Vidéo', {
       x: margin,
       y,
       size: 10,

@@ -66,9 +66,9 @@ export default function HeroSection() {
           </h1>
 
           <p className="text-white/50 text-lg md:text-xl max-w-2xl mb-6 leading-relaxed">
-            Développeur spécialisé en développement de jeux vidéo et moteurs de jeu.
-            Expertise en architecture ECS, systèmes de gameplay avancés (GAS), et optimisation.
-            Spécialisation en mathématiques théoriques appliquées aux moteurs de jeu lors de ma formation à l'UQAC.
+            Développeur polyvalent : développement full stack, jeux vidéo et moteurs de jeu, data, réseaux et cybersécurité.
+            Expertise en architecture logicielle (ECS, Subsystems), systèmes de gameplay (GAS) et optimisation.
+            Formation à l'IUT d'Orsay et à l'UQAC.
           </p>
           <div className="flex flex-wrap gap-4 mb-10 text-sm text-white/35">
             <span className="flex items-center gap-1.5">
