@@ -79,7 +79,6 @@ export default function ProjectCard({ project, index }) {
             />
           </div>
         </div>
-        </div>
       </div>
     </motion.div>
   );
