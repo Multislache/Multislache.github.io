@@ -91,7 +91,7 @@ Deno.serve(async (req) => {
 
     page.drawText('UQAC - Université du Québec à Chicoutimi', { x: margin, y, size: 10 });
     y -= 12;
-    page.drawText('Diplômé en Développement de Jeux Vidéo | 2025-2026', { x: margin, y, size: 9 });
+    page.drawText('Bachelor en Informatique, Jeux Vidéo (diplômé) | 2025-2026', { x: margin, y, size: 9 });
     y -= 12;
     page.drawText('• Expertise : Unreal Engine architecture, systèmes de gameplay, optimisation, multithreading, mathématiques moteurs', { x: margin + 5, y, size: 9 });
     y -= 12;
