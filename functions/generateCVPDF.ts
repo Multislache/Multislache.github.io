@@ -58,7 +58,7 @@ Deno.serve(async (req) => {
     });
     y -= 12;
 
-    page.drawText('France / Canada | github.com/Multislache | linkedin.com/in/jacques-wen-43ba32164', {
+    page.drawText('Paris, France | github.com/Multislache | linkedin.com/in/jacques-wen-43ba32164', {
       x: margin,
       y,
       size: 9,

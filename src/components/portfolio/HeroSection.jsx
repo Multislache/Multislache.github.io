@@ -68,7 +68,7 @@ export default function HeroSection() {
           <p className="text-white/50 text-lg md:text-xl max-w-2xl mb-6 leading-relaxed">
             Développeur polyvalent : développement full stack, jeux vidéo et moteurs de jeu, data, réseaux et cybersécurité.
             Expertise en architecture logicielle (ECS, Subsystems), systèmes de gameplay (GAS) et optimisation.
-            Formation à l'IUT d'Orsay et à l'UQAC.
+            Étudiant en ING1 à l'EFREI Paris, après l'IUT d'Orsay et l'UQAC.
           </p>
           <div className="flex flex-wrap gap-4 mb-10 text-sm text-white/35">
             <span className="flex items-center gap-1.5">

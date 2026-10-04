@@ -55,6 +55,15 @@ const timeline = [
     url: "https://itch.io/jam/wonderjam-uqac-hiver-2026/rate/4338317",
     type: "event",
   },
+  {
+    date: "Septembre 2026",
+    lieu: "EFREI Paris — France",
+    description: "🎓 Entrée en première année du cycle ingénieur (ING1) à l'EFREI Paris.",
+    color: "text-pink-400",
+    dot: "bg-pink-500",
+    type: "formation",
+    highlight: true,
+  },
 ];
 
 export default function ParcourSection() {

@@ -140,7 +140,7 @@ export default function Home() {
             <p className="text-white/50 text-xl max-w-2xl mb-8 leading-relaxed">
               Développeur polyvalent : développement full stack, jeux vidéo et moteurs de jeu, data, réseaux et cybersécurité.
               Expertise en architecture logicielle (ECS, Subsystems), systèmes de gameplay (GAS) et optimisation.
-              Solide formation en mathématiques de l'enseignement supérieur (BUT Informatique) et spécialisation à l'UQAC.
+              Solide formation en mathématiques de l'enseignement supérieur (BUT Informatique) et formation ingénieur à l'EFREI Paris (ING1).
             </p>
             <div className="flex flex-wrap gap-2 mb-8">
               {skills.map((s, i) => (
@@ -194,18 +194,19 @@ export default function Home() {
               <div>
                 <p className="text-white/60 leading-relaxed mb-6">
                   Étudiant en informatique, développeur polyvalent.
-                  Actuellement en double diplôme entre l'IUT d'Orsay - Université Paris-Saclay (France) et l'UQAC - Université du Québec à Chicoutimi (Canada),
-                  je me forme au développement full stack, aux données, à la cybersécurité, aux réseaux et aux systèmes,
+                  Actuellement en première année du cycle ingénieur (ING1) à l'EFREI Paris, après un BUT Informatique à l'IUT d'Orsay - Université Paris-Saclay
+                  et une formation en développement de jeux vidéo à l'UQAC - Université du Québec à Chicoutimi (Canada).
+                  Je me forme au développement full stack, aux données, à la cybersécurité, aux réseaux et aux systèmes,
                   avec une spécialisation en développement de jeux vidéo : architectures de moteurs et systèmes de gameplay complexes.
                 </p>
                 <div className="flex flex-col gap-3">
                   <div className="flex items-center gap-3 text-sm">
                     <MapPin size={14} className="text-violet-400" />
-                    <span className="text-white/50">France / Canada</span>
+                    <span className="text-white/50">Paris, France</span>
                   </div>
                   <div className="flex items-center gap-3 text-sm">
                     <GraduationCap size={14} className="text-violet-400" />
-                    <span className="text-white/50">IUT d'Orsay - Université Paris-Saclay & UQAC</span>
+                    <span className="text-white/50">EFREI Paris (ING1) · IUT d'Orsay · UQAC</span>
                   </div>
                   <div className="flex items-center gap-3 text-sm">
                     <Mail size={14} className="text-violet-400" />
@@ -216,6 +217,10 @@ export default function Home() {
                 </div>
               </div>
               <div className="space-y-4">
+                <div className="border border-white/10 rounded-xl p-4 bg-white/3">
+                  <h3 className="text-sm font-mono text-pink-400 mb-2">EFREI Paris</h3>
+                  <p className="text-white/50 text-sm">Cycle ingénieur - 1ʳᵉ année (ING1)</p>
+                </div>
                 <div className="border border-white/10 rounded-xl p-4 bg-white/3">
                   <h3 className="text-sm font-mono text-cyan-400 mb-2">IUT d'Orsay - Université Paris-Saclay</h3>
                   <p className="text-white/50 text-sm">BUT Informatique - Développement logiciel, bases de données, réseaux</p>
