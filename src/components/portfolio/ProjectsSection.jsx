@@ -36,6 +36,25 @@ const gameJamProjects = [
 
 const schoolProjects = [
   {
+    id: 15,
+    name: "Fishy Collector",
+    description:
+      "Jeu de pêche collaboratif développé sous Unreal Engine 5 : carnet de pêche à collectionner, carte du monde avec zones à débloquer et économie en jeu.",
+    tech: ["Unreal Engine", "C++", "UI / UMG", "Gameplay Programming"],
+    learnings: ["Interfaces UMG", "Système de collection et de rareté", "Progression et économie de jeu"],
+    url: "https://github.com/Multislache/FishyCollector",
+    year: "2026",
+    category: "school",
+    school: "UQAC",
+    image: null,
+    collaborative: true,
+    images: [
+      "/projects/fishy-collector/menu.jpg",
+      "/projects/fishy-collector/logbook.jpg",
+      "/projects/fishy-collector/world-map.jpg",
+    ],
+  },
+  {
     id: 1,
     name: "AmongUs",
     description:

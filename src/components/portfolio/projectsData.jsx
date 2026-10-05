@@ -306,6 +306,29 @@ J'étais responsable de la game loop, du système de collision et de la gestion 
     collaborative: true,
     video: "/projects/snake/Snake.mp4",
   },
+  {
+    id: 15,
+    name: "Fishy Collector",
+    description: "Jeu de pêche collaboratif développé sous Unreal Engine 5 : carnet de pêche à collectionner, carte du monde avec zones à débloquer et économie en jeu.",
+    detailedDescription: `Fishy Collector est un jeu de pêche développé en équipe sous Unreal Engine 5.
+
+Le joueur pêche depuis sa barque au coucher du soleil et remplit son **Fishing Logbook** : un carnet de pêche qui répertorie chaque espèce avec sa fiche détaillée (nom, description). Les poissons pas encore capturés apparaissent en silhouette, et les entrées sont triables par numéro, rareté ou lieu, avec une couleur par niveau de rareté.
+
+Une **carte du monde** permet de choisir sa zone de pêche (Zone Côtière, Forêt de Pins, Le Grand Lac, Haute Mer). Les zones avancées sont verrouillées et s'achètent avec l'argent gagné en jeu.`,
+    tech: ["Unreal Engine 5", "C++", "UI / UMG", "Gameplay Programming"],
+    learnings: ["Interfaces UMG (carnet, carte, menus)", "Système de collection et de rareté", "Progression et économie de jeu", "Travail en équipe"],
+    challenges: "",
+    url: "https://github.com/Multislache/FishyCollector",
+    year: "2026",
+    category: "school",
+    school: "UQAC",
+    collaborative: true,
+    images: [
+      "/projects/fishy-collector/menu.jpg",
+      "/projects/fishy-collector/logbook.jpg",
+      "/projects/fishy-collector/world-map.jpg",
+    ],
+  },
 
   // Game Jams
   {
