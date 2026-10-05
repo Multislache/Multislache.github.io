@@ -18,6 +18,9 @@ const gameJamProjects = [
     images: [
       "/projects/wonderjam/20260227_160439.jpg",
       "/projects/wonderjam/PXL_20260301_204123002.jpg",
+      "/projects/wonderjam/kraken-menu.jpg",
+      "/projects/wonderjam/kraken-gameplay.jpg",
+      "/projects/wonderjam/kraken-pause.jpg",
     ],
   },
   {
